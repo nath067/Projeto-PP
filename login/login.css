@@ -27,6 +27,19 @@ main{
     gap: 2vw;
 }
 
+a{
+    text-decoration: none;
+}
+
+.faça_agora {
+    color: black;
+}
+
+.faça_agora:hover {
+    color: #917560;
+    border-bottom: 1px solid #917560;
+}
+
 .acesso{
     background-color: #C59A78;
     width: 7vw;
@@ -34,6 +47,13 @@ main{
     border-radius: 10px;
     color: white;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesso:hover {
+    background-color: #917560;
 }
 
 .campo_foto {

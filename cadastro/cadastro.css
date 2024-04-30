@@ -43,6 +43,10 @@ a {
     align-items: center;
 }
 
+.acesso:hover {
+    background-color: #917560;
+}
+
 .campo_foto {
     width: 65vw;
     height: 100vh;
